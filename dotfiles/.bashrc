@@ -91,6 +91,8 @@ if [ "$PS1" ]; then
         fi
       fi
     fi
+    # in order to improve colors on screen
+    export TERM=xterm
     case $TERM in
 	xterm*)
 		if [ -e /etc/sysconfig/bash-prompt-xterm ]; then
@@ -225,3 +227,9 @@ fi
 
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
+
+## Setup dir colors
+eval `dircolors ~/.dir_colors`
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

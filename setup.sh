@@ -39,6 +39,7 @@ cd $HOME
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
+ln -sb $FILE_PATH/dotfiles/.dir_colors .
 ln -sb $FILE_PATH/dotfiles/.screenrc .
 ln -sb $FILE_PATH/dotfiles/.bash_profile .
 ln -sb $FILE_PATH/dotfiles/.bashrc .
@@ -47,5 +48,5 @@ ln -sf $FILE_PATH/dotfiles/.emacs.d .
 
 # setup vim
 mkdir -p .vim/colors
-cp $FILE_PATH/vim/github.vim .vim/colors
+cp $FILE_PATH/vim/*.vim .vim/colors
 cp $FILE_PATH/vim/.vimrc .
