@@ -1,5 +1,5 @@
-awssetup
-========
+linux setup
+===========
 
 setup environment and core software on a linux node
 
