@@ -191,10 +191,8 @@ alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
 
 # 2.3) Text and editor commands
-alias em='emacs -nw'     # No X11 windows
-alias eqq='emacs -nw -Q' # No config and no X11
-export EDITOR='emacs -nw'
-export VISUAL='emacs -nw' 
+export EDITOR='vim'
+export VISUAL='vim' 
 
 # 2.4) grep options
 export GREP_OPTIONS='--color=auto'
@@ -218,7 +216,7 @@ export NODE_DISABLE_COLORS=1
 if [ -s ~/.nvm/nvm.sh ]; then
     NVM_DIR=~/.nvm
     source ~/.nvm/nvm.sh
-    nvm use v0.10.22 &> /dev/null # silence nvm use; needed for rsync
+    nvm use v0.10 &> /dev/null # silence nvm use; needed for rsync
 fi
 
 ## ------------------------------
@@ -230,6 +228,3 @@ source ~/.bashrc_custom
 
 ## Setup dir colors
 eval `dircolors ~/.dir_colors`
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
