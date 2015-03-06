@@ -179,7 +179,7 @@ set -o noclobber
 # 2.2) Listing, directories, and motion
 alias ll="ls -Alh --time-style=long-iso --color"
 alias la="ls -A"
-alias l="ls -CF"
+alias l="ls -CF --color=auto"
 alias dir='ls --color=auto --format=vertical'
 alias vdir='ls --color=auto --format=long'
 alias m='less'
@@ -189,6 +189,7 @@ alias md='mkdir'
 alias cl='clear'
 alias du='du -ch --max-depth=1'
 alias treeacl='tree -A -C -L 2'
+alias ls="ls --color=auto"
 
 # 2.3) Text and editor commands
 export EDITOR='vim'
