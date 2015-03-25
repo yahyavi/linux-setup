@@ -2,13 +2,13 @@
 " Version: 1
 " Author: Seth Mason
 " Created: 19 Nov 2003 10:20:19
-" Last-modified: 08 Jul 2013 00:41:05
+" Last-modified: 25 Mar 2015 19:43:34
 " All my Vim commands for the taking
 " Works on cygwin but not very well on unix machines...still trying to figure
 " it out
 
 " show line numebrs
-set nu
+" set nu
 
 " Use Vim settings, rather then Vi settings (much better!).
 set nocompatible
@@ -30,6 +30,9 @@ set expandtab
 
 " Always  set auto indenting on
 set autoindent
+
+" Fix Paste issue
+set paste
 
 " select when using the mouse
 set selectmode=mouse
