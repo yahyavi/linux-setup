@@ -171,9 +171,9 @@ PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
 ## -----------------------
 
 # 2.1) Safety
-alias rm="rm -i"
-alias mv="mv -i"
-alias cp="cp -i"
+# alias rm="rm -i"
+# alias mv="mv -i"
+# alias cp="cp -i"
 set -o noclobber
 
 # 2.2) Listing, directories, and motion
