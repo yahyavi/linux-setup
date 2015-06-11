@@ -174,7 +174,7 @@ PS1="\[\033[0;34m\][\u@\h:\w]$\[\033[0m\]"
 # alias rm="rm -i"
 # alias mv="mv -i"
 # alias cp="cp -i"
-set -o noclobber
+# set -o noclobber
 
 # 2.2) Listing, directories, and motion
 alias ll="ls -Alh --time-style=long-iso --color"
