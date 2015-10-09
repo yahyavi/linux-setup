@@ -9,7 +9,7 @@ FILE_PATH=`cd  $dir;pwd`
 
 # Install nvm: node-version manager
 # https://github.com/creationix/nvm
-sudo apt-get install -y git-core build-essential libssl-dev
+sudo apt-get install -y git-core build-essential libssl-dev keychain
 wget https://raw.github.com/creationix/nvm/master/install.sh
 bash install.sh
 

@@ -230,3 +230,10 @@ source ~/.bashrc_custom
 
 ## Setup dir colors
 # eval `dircolors ~/.dir_colors`
+
+
+if type keychain >/dev/null 2>/dev/null; then
+  keychain --nogui -q /home/amir/.ssh/id_rsa
+  [ -f ~/.keychain/${HOSTNAME}-sh ] && . ~/.keychain/${HOSTNAME}-sh
+  [ -f ~/.keychain/${HOSTNAME}-sh-gpg ] && . ~/.keychain/${HOSTNAME}-sh-gpg
+fi
