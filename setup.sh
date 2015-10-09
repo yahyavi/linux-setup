@@ -23,12 +23,12 @@ nvm use v0.12
 sudo apt-get install -y rlwrap
 
 # git pull and install dotfiles as well
-# cd $HOME
+cd $HOME
 # cp -b $FILE_PATH/dotfiles/.dir_colors .
 # cp -b $FILE_PATH/dotfiles/.screenrc .
-# cp -b $FILE_PATH/dotfiles/.bash_profile .
-# cp -b $FILE_PATH/dotfiles/.bashrc .
-# cp -b $FILE_PATH/dotfiles/.bashrc_custom .
+cp -b $FILE_PATH/dotfiles/.bash_profile .
+cp -b $FILE_PATH/dotfiles/.bashrc .
+cp -b $FILE_PATH/dotfiles/.bashrc_custom .
 
 # setup vim
 sudo apt-get install -y vim

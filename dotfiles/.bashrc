@@ -229,4 +229,4 @@ fi
 source ~/.bashrc_custom
 
 ## Setup dir colors
-eval `dircolors ~/.dir_colors`
+# eval `dircolors ~/.dir_colors`
