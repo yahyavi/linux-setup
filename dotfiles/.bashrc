@@ -218,7 +218,7 @@ export NODE_DISABLE_COLORS=1
 if [ -s ~/.nvm/nvm.sh ]; then
     NVM_DIR=~/.nvm
     source ~/.nvm/nvm.sh
-    nvm use v0.12 &> /dev/null # silence nvm use; needed for rsync
+    nvm use v4.2.4 &> /dev/null # silence nvm use; needed for rsync
 fi
 
 ## ------------------------------
