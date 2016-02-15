@@ -15,8 +15,8 @@ bash install.sh
 
 # Load nvm and install latest production node
 source $HOME/.nvm/nvm.sh
-nvm install v4.2.4
-nvm use v4.2.4
+nvm install v4.3.0
+nvm use v4.3.0
 
 # Install rlwrap to provide libreadline features with node
 # See: http://nodejs.org/api/repl.html#repl_repl
